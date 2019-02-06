@@ -10,7 +10,21 @@
 	width: 25%;
 }
 
-box{
+.box1{
+	width: 100%;
+  	padding: 2%;
+  	border: 5px solid rgb(91, 123, 212);
+  	margin: 0;
+}	
+
+.box2{
+	width: 100%;
+  	padding: 2%;
+  	border: 5px solid rgb(91, 123, 212);
+  	margin: 0;
+}
+
+.box3{
 	width: 100%;
   	padding: 2%;
   	border: 5px solid rgb(91, 123, 212);
