@@ -8,3 +8,10 @@
 	display: inline-block;
 	front-size:	5%;
 }
+
+box{
+	width: 320px;
+  	padding: 10px;
+  	border: 5px solid rgb(91, 123, 212);
+  	margin: 0;
+}
