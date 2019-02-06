@@ -8,25 +8,19 @@
 	display: inline-block;
 	front-size:	5%;
 	width: 25%;
+	
 }
 
-.box1{
-	width: 100%;
-  	padding: 2%;
-  	border: 5px solid rgb(91, 123, 212);
-  	margin: 0;
-}	
-
-.box2{
-	width: 100%;
-  	padding: 2%;
-  	border: 5px solid rgb(91, 123, 212);
-  	margin: 0;
+.mybutton:hover{
+	background-color: rgb(105, 208, 248);
 }
 
-.box3{
+.box{
 	width: 100%;
   	padding: 2%;
   	border: 5px solid rgb(91, 123, 212);
-  	margin: 0;
+	border-collapse: separate;
+	border-spacing: 20%;
+	margin-top: 5%;
+  	margin-bottom: 5%;
 }
