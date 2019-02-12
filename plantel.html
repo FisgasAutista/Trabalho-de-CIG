@@ -99,96 +99,54 @@
               </div>
             </div>
 
-            
+            <div class="row" style="padding-top:2%">
+            <div class="col-md-12">
 
-            <button class="tablink" onclick="openPage('Plantel', this, 'rgb(29, 107, 209)')" id="defaultOpen">Plantel</button>
-            <button class="tablink" onclick="openPage('Dados', this, 'rgb(29, 107, 209)')">Dados Gerais</button>
-            <button class="tablink" onclick="openPage('Competicoes', this, 'rgb(29, 107, 209)')">Competições</button>
-            <button class="tablink" onclick="openPage('Calendario', this, 'rgb(29, 107, 209)')">Calendario</button>
+            <button class="tablink" onclick="openPage('Plantel', this, 'rgb(128, 191, 255)')" id="defaultOpen">Plantel</button>
+            <button class="tablink" onclick="openPage('Dados', this, 'rgb(128, 191, 255)')">Dados Gerais</button>
+            <button class="tablink" onclick="openPage('Competicoes', this, 'rgb(128, 191, 255)')">Competições</button>
+            <button class="tablink" onclick="openPage('Calendario', this, 'rgb(128, 191, 255)')">Calendario</button>
 
             <div id="Plantel" class="tabcontent">
 
-                    <table class="table table-hover">
-                    <thead  style="background-color: #e6e600;">
+                    <table id="myTable" class="table table-hover">
+                    <thead  style="background-color: rgb(128, 191, 255);">
                       <tr>
-                        <th>Logo</th>
-                        <th>Equipa</th>
-                        <th>Posição</th>
-                        <th>Pontos</th>
+                        <th onclick="sortTable(0)">Posição</th>
+                        <th onclick="sortTable(1)">Nome</th>
+                        <th onclick="sortTable(2)">Nacionalidade</th>
+                        <th onclick="sortTable(3)">Idade</th>
+                        <th onclick="sortTable(4)">Altura</th>
                       </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>FC Porto</td>
-                          <td>1º</td>
-                          <td>89</td> 
+                          <td>Guarda Redes</td>
+                          <td>Paulo</td>
+                          <td>Portugues</td>
+                          <td>19</td>
+                          <td>169 cm</td>
                         </tr>
                         <tr>
-                          <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/> </td>
-                          <td>SL Benfica</td>
-                          <td>2º</td>
-                          <td>79</td>
-                      </tr>
-                      <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>3º</td>
-                          <td>75</td>
+                          <td> Avançado</td>
+                          <td>Areias</td>
+                          <td>Portugues</td>
+                          <td>22</td>
+                          <td>169 cm</td>
                         </tr>
                         <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>4º</td>
-                          <td>75</td>
+                          <td>Defesa</td>
+                          <td>Carlos</td>
+                          <td>Portugues</td>
+                          <td>20</td>
+                          <td>180 cm</td>
                         </tr>
-                        <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>5º</td>
-                          <td>75</td>
-                        </tr>
-                        <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>6º</td>
-                          <td>75</td>
-                        </tr>
-                        <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>7º</td>
-                          <td>75</td>
-                        </tr>
-                        <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>8º</td>
-                          <td>75</td>
-                        </tr>
-                        <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>9º</td>
-                          <td>75</td>
-                        </tr>
-                        <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>10º</td>
-                          <td>75</td>
-                        </tr>
-                        <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>11º</td>
-                          <td>75</td>
-                        </tr>
-                        <tr>
-                          <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png"  width="50" height="50"/> </td>
-                          <td>SC Sporting</td>
-                          <td>12º</td>
-                          <td>75</td>
+                       <tr>
+                          <td>Sub</td>
+                          <td>Jose</td>
+                          <td>Portugues</td>
+                          <td>22</td>
+                          <td>150 cm</td>
                         </tr>
                         
                         </tbody>
@@ -207,6 +165,10 @@
             </div>
 
             <div id="Calendario" class="tabcontent">
+            </div>
+
+            </div>
+
             </div>
 
             
