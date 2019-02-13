@@ -75,11 +75,13 @@
     </nav>
             
              <div class="row">
-                <div class="col-md-2">
-             <img src="assets/img/primeiraliga.png" width="100%">
+                <div class="col-md-4">
+             
                </div>
-               <div class="col-md-10"> 
-            <h1 style="padding-left:40%;">Primeira Liga</h1>
+               <div class="col-md-4"> 
+                  <img src="https://portal-sites.net/wp-content/uploads/2017/08/liga-portugal.png" width="100%">
+               </div>
+               <div class="col-md-4">
                </div>
              </div>
 
@@ -87,87 +89,15 @@
             <div class="row" style="padding-top:9%">
                         
             <div class="col-md-12">
-              <h2>Resumo</h2>
-              &nbsp;
-              <h5>19ª Jornada</h5>
 
-              <div style="overflow-y:scroll ; height:270px"> 
-              <table class="table table-hover" >
-              <thead style="background-color : #e6e600">
-                <tr>
-                  <th>Data</th>
-                  <th>Horas</th>
-                  <th>Equipa Vistada</th>
-                  <th>Equipa Visitante</th>
-                </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td> 21/02/2019 </td>
-                    <td> 17:00 </td>
-                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
-                  </tr>
-                <tr>
-                    <td> 21/02/2019 </td>
-                    <td> 17:00 </td>
-                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
-                  </tr>
-                 <tr>
-                    <td> 21/02/2019 </td>
-                    <td> 17:00 </td>
-                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
-                  </tr>
-                  <tr>
-                    <td> 21/02/2019 </td>
-                    <td> 17:00 </td>
-                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
-                  </tr>
-                  <tr>
-                    <td> 21/02/2019 </td>
-                    <td> 17:00 </td>
-                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
-                  </tr>
-                    <tr>
-                    <td> 21/02/2019 </td>
-                    <td> 17:00 </td>
-                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
-                  </tr>
-                  <tr>
-                    <td> 21/02/2019 </td>
-                    <td> 17:00 </td>
-                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
-                  </tr>
-                   <tr>
-                    <td> 21/02/2019 </td>
-                    <td> 17:00 </td>
-                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
-                  </tr>
-                   <tr>
-                    <td> 21/02/2019 </td>
-                    <td> 17:00 </td>
-                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
-                  </tr>
-                  </tbody>
-                </table>
-                </div>
+              <button class="tablinkL" onclick="openPageL('tabela', this, '#ff3300')" id="defaultOpen" >Tabela de Classificação</button>
+              <button class="tablinkL" onclick="openPageL('calendario', this, '#ff3300')" >Calendario</button>
+              <button class="tablinkL" onclick="openPageL('marcadores', this, '#ff3300')" >Melhores Marcadores</button>
 
-            </div>
-            </div>
 
-                &nbsp;
-                <h2>Classificação</h2>
-                &nbsp;
+              <div id="tabela" class="tabcontentCo">
 
-                <div style="overflow-y:scroll; height:350px;"> 
+                  <div style="overflow-y:scroll; height:350px;"> 
               <table id="myTable" class="table table-hover" >
           
               <thead style="background-color : #e6e600">
@@ -401,14 +331,93 @@
                     <td>11</td>   
                     <td>46</td> 
                   </tr>
-                  
-
-                  
-              </tbody>
+                </tbody>
               </table>
             </div>
 
+
+              </div>
+
+              <div id="calendario" class="tabcontentL">
+
+              <div style="overflow-y:scroll ; height:270px"> 
+              <table class="table table-hover" >
+              <thead style="background-color : #e6e600">
+                <tr>
+                  <th>Data</th>
+                  <th>Horas</th>
+                  <th>Equipa Vistada</th>
+                  <th>Equipa Visitante</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> 21/02/2019 </td>
+                    <td> 17:00 </td>
+                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
+                  </tr>
+                <tr>
+                    <td> 21/02/2019 </td>
+                    <td> 17:00 </td>
+                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
+                  </tr>
+                 <tr>
+                    <td> 21/02/2019 </td>
+                    <td> 17:00 </td>
+                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
+                  </tr>
+                  <tr>
+                    <td> 21/02/2019 </td>
+                    <td> 17:00 </td>
+                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
+                  </tr>
+                  <tr>
+                    <td> 21/02/2019 </td>
+                    <td> 17:00 </td>
+                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
+                  </tr>
+                    <tr>
+                    <td> 21/02/2019 </td>
+                    <td> 17:00 </td>
+                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
+                  </tr>
+                  <tr>
+                    <td> 21/02/2019 </td>
+                    <td> 17:00 </td>
+                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
+                  </tr>
+                   <tr>
+                    <td> 21/02/2019 </td>
+                    <td> 17:00 </td>
+                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
+                  </tr>
+                   <tr>
+                    <td> 21/02/2019 </td>
+                    <td> 17:00 </td>
+                    <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png" width="50" height="50"/></td> 
+                  </tr>
+                  </tbody>
+                </table>
+                </div>
+
+              </div>
+
+              <div id="marcadores" class="tabcontentL">
+             </div>
+
         </div>
+      </div>
+
+              
 
 
 
