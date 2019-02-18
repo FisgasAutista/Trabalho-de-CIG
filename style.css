@@ -1,3 +1,8 @@
+body{;
+}
+
+
+
 .mybutton{
 	background-color: rgb(17, 128, 219);
 	border:none;
@@ -80,12 +85,13 @@ body, html {
   cursor: pointer;
   padding: 12px 15px;
   font-size: 17px;
-  width: 25%;
+  width: 33.3%;
 }
 
 .tablink:hover {
   background-color: rgb(128, 191, 255);
 }
+
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
@@ -94,3 +100,116 @@ body, html {
   padding-top: 5%;
   height: 100%;
 }
+
+//champions
+
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: ;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablinkC {
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 15px;
+  font-size: 17px;
+  width: 33%;
+}
+
+.tablinkC:hover {
+  background-color: #0fa2f7 ;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontentC {
+  color: black;
+  display: none;
+  padding-top: 5%;
+  height: 100%;
+}
+
+//primeiraliga
+
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: ;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablinkL {
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 15px;
+  font-size: 17px;
+  width: 33%;
+}
+
+.tablinkL:hover {
+  background-color: #00cc00 ;
+  color:black;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontentL {
+  color: black;
+  display: none;
+  padding-top: 5%;
+  height: 100%;
+}
+
+//competicoes
+
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: ;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablinkCo {
+  background-color: transparent;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 15px;
+  font-size: 17px;
+  width: 50%;
+}
+
+.tablinkCo:hover {
+  background-color: transparent; ;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontentCo {
+  color: black;
+  display: none;
+  padding-top: 5%;
+  height: 100%;
+}
+
