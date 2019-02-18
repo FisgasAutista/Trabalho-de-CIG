@@ -97,23 +97,24 @@
 
               <div id="tabela" class="tabcontentL">
 
-                *click table head to sort
+                <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search nome da equipa...(ex: Porto)">
 
-                  <div style="overflow-y:scroll; height:350px;"> 
+
+              <div style="overflow-y:scroll; height:350px; padding-top: 2%"> 
               <table id="myTable" class="table table-hover" >
           
               <thead style="background-color : #e6e600">
-                <tr>
-                  <th onclick="sortTable(0)">Posição</th>
-                  <th onclick="sortTable(1)">Equipa</th>
+                <tr class="header">
+                  <th onclick="sortTable(0)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">Posição</th>
+                  <th onclick="sortTable(1)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">Equipa</th>
                   <th >Logo</th> 
-                  <th onclick="sortTable(3)">J</th>
-                  <th onclick="sortTable(4)">V</th>
-                  <th onclick="sortTable(5)">E</th>
-                  <th onclick="sortTable(6)">D</th>
-                  <th onclick="sortTable(7)">GM</th>
-                  <th onclick="sortTable(8)">GS</th>
-                  <th onclick="sortTable(9)">P</th>
+                  <th onclick="sortTable(3)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">J</th>
+                  <th onclick="sortTable(4)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">V</th>
+                  <th onclick="sortTable(5)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">E</th>
+                  <th onclick="sortTable(6)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">D</th>
+                  <th onclick="sortTable(7)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">GM</th>
+                  <th onclick="sortTable(8)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">GS</th>
+                  <th onclick="sortTable(9)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">P</th>
                 </tr>
                   </thead>
                 <tr>
@@ -274,7 +275,7 @@
                   </tr>
                   <tr>
                     <td> 14º </td>
-                    <td> Porto </td>
+                    <td> Alemanha </td>
                     <td><img src="https://clipart.info/images/ccovers/1503438063porto-logo-png.png" width="50" height="50"/></td>
                     <td>18</td> 
                     <td>15</td>
@@ -316,7 +317,7 @@
                     <td>15</td>
                     <td>1</td>
                     <td>2</td> 
-                    <td>38</td> 
+                    <td>2</td> 
                     <td>11</td>   
                     <td>46</td> 
                   </tr>

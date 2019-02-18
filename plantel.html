@@ -100,14 +100,18 @@
 
             <div id="Plantel" class="tabcontent">
 
+               <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search Nome do Jogador...(ex: Iker / Iker Casillas)">
+
+
+                    <div style="overflow-y:scroll; height:700px"> 
                     <table id="myTable" class="table table-hover sorttable">
                     <thead  style="background-color: rgb(128, 191, 255);">
                       <tr>
-                        <th onclick="sortTable(0)">Posição</th>
-                        <th onclick="sortTable(1)">Nome</th>
-                        <th onclick="sortTable(2)">Nacionalidade</th>
-                        <th onclick="sortTable(3)">Idade</th>
-                        <th onclick="sortTable(4)">Altura</th>
+                        <th onclick="sortTable(0)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">Posição</th>
+                        <th onclick="sortTable(1)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">Nome</th>
+                        <th onclick="sortTable(2)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">Nacionalidade</th>
+                        <th onclick="sortTable(3)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">Idade</th>
+                        <th onclick="sortTable(4)"><img src="https://image.flaticon.com/icons/png/512/36/36861.png" width="15">Altura</th>
                       </tr>
                       </thead>
                       <tbody>
@@ -361,6 +365,7 @@
                         
                         </tbody>
                       </table>
+                    </div>
 
             </div>
 

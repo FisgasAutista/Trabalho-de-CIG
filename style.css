@@ -213,3 +213,15 @@ body, html {
   height: 100%;
 }
 
+
+#myInput {
+  background-image: url('assets/img/search.png'); /* Add a search icon to input */
+  background-position: 2px;
+  background-size: 2%;
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
